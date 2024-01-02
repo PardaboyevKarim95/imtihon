@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.wrapper-left {
+max-height: 800px !important;
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+.wrapper-right {
+  /* height: 900px; */
+}
+.list {
+  overflow-y: scroll;
+  height: 700px;
+}
